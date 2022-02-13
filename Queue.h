@@ -1,4 +1,4 @@
-
+/*
 void enqueue(NodePtr* head, NodePtr* tail, int x){
   Node *newNode = (NodePtr) malloc(sizeof(Node));
   if(newNode){
@@ -28,6 +28,7 @@ int dequeue(NodePtr *head, NodePtr *tail){
   }
   
 }
+*/
 
 void enqueue_q(Queue *qq, int x){
   Node *newNode = (NodePtr) malloc(sizeof(Node));
